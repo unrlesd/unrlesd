@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Courier-Prime';
+    src: url(fonts/courier-prime.regular.ttf);
+}
 .NavBar ul{
     list-style-type: none;
     background-color:  rgb(96, 4, 158);
@@ -15,9 +19,11 @@
     margin-right: 5px;
     display: block;
     font-size: larger;
+    font-family: Courier-Prime;
 }
 .NavBar a:hover{
     background-color: rgb(65, 0, 65);
+    font-family: Courier-Prime;
 }
 .NavBar li{
     float:left
@@ -40,13 +46,15 @@ main{
 p {
     text-align: center;
     color: white;
+    font-family: Courier-Prime;
 }
 h1 {
     text-align: center;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 h4 {
     color: white;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Courier-Prime;
 }
