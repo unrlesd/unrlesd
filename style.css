@@ -1,0 +1,52 @@
+.NavBar ul{
+    list-style-type: none;
+    background-color:  rgb(96, 4, 158);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border: 4px;
+    border-radius: 12px;
+}
+.NavBar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    font-size: larger;
+}
+.NavBar a:hover{
+    background-color: rgb(65, 0, 65);
+}
+.NavBar li{
+    float:left
+}
+.p {
+    color: purple;
+}
+.imageCenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+body {
+    background-color: rgb(144, 52, 160);
+}
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+p {
+    text-align: center;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h4 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
